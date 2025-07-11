@@ -3,7 +3,7 @@ deploy_dbt_course:
   outputs:
     dev:
       type: snowflake
-      account: PBRDOGJ-XV10349
+      account: ll55246.ap-southeast-1
 
       # User/password auth
       user: prkorat
@@ -19,7 +19,7 @@ deploy_dbt_course:
       client_session_keep_alive: False
     prod:
       type: snowflake
-      account: PBRDOGJ-XV10349
+      account: ll55246.ap-southeast-1
 
       # User/password auth
       user: prkorat
